@@ -31,11 +31,14 @@
       src="https://kit.fontawesome.com/db1d523024.js"
       crossorigin="anonymous"
     ></script>
-    <title>Gregor Dörsch</title>
+    <title>Contact Gregor Dörsch</title>
   </head>
   <body>
     <div id="root">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary bg-dark"
+        data-bs-theme="dark"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Gregor Dörsch</a>
           <button
@@ -67,6 +70,37 @@
           </div>
         </div>
       </nav>
+      <img
+        src="Gregor.jpeg"
+        alt="Gregor Dörsch"
+        id="about-portrait"
+        class="portrait contact"
+      />
+
+      <div class="container">
+        <div class="row about-content">
+          <div class="col-sm-12 col-md-12">
+            <h2 id="about-headline">Contact</h2>
+          </div>
+        </div>
+        <div class="row contact-information">
+          <div class="col-sm-12 col-md-12">
+            <p class="email">
+              <span class="kind-of-contact">E-mail:</span>
+              <a class="email-link" href="mailto:gregor@1000ps.at">
+                gregor@1000ps.at</a
+              >
+            </p>
+            <p class="mobil">
+              <span class="kind-of-contact">Mobil:</span> +4367761765819
+            </p>
+            <p class="brieftaube">
+              <span class="kind-of-contact">Brieftaube:</span> Meiselstraße
+              23/38 1150 Wien
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

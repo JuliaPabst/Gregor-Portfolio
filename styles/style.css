@@ -67,7 +67,7 @@ p {
   text-align: center;
 }
 
-#portrait {
+.portrait {
   width: 100%;
   position: relative;
   top: 40px;
@@ -97,23 +97,75 @@ p {
 
 .island {
   position: relative;
-  
+
   padding-top: 30px;
 }
 
 .bosnien {
   position: relative;
-  
+
   padding-top: 30px;
 }
 
 .norwegen {
   position: relative;
- 
+
   padding-top: 30px;
 }
 
-@media (min-width: 540px) {
+#about-portrait {
+  opacity: 100;
+}
+
+#about-headline {
+  color: black;
+  font-size: 70px;
+  text-shadow: none;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+#about-paragraph {
+  position: relative;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 300;
+  position: relative;
+  top: -10px;
+}
+
+#baby-photo {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.bike {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.bike-name {
+  line-height: 50px;
+  padding-top: 40px;
+}
+
+.kind-of-contact {
+  font-weight: 800;
+}
+
+.contact-information {
+  position: relative;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 300;
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
   h1 {
     font-size: 75px;
     line-height: 75px;
@@ -123,6 +175,7 @@ p {
     font-size: 40px;
     line-height: 40px;
   }
+
   .welcome {
     max-width: 1024px;
   }
@@ -137,7 +190,7 @@ p {
     top: -5%;
   }
 
-  #portrait {
+  .portrait {
     width: 100%;
     position: relative;
     top: 20px;
@@ -178,5 +231,69 @@ p {
   }
   .big-screen {
     display: block;
+  }
+
+  .about-content {
+    max-width: 1080px;
+    margin: auto;
+  }
+
+  #about-headline {
+    width: 100%;
+    position: relative;
+    left: 0px;
+  }
+
+  #about-paragraph {
+    position: relative;
+    top: 15px;
+    font-size: 25px;
+  }
+
+  #baby-photo {
+    width: 100%;
+    position: relative;
+    top: -80px;
+    left: 11px;
+  }
+
+  .bikes {
+    position: relative;
+    top: 60px;
+  }
+
+  .bike {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .bike-name {
+    line-height: 50px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .kawasaki2 {
+    display: none;
+  }
+
+  .contact-information {
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 300;
+    position: relative;
+    padding-top: 10px;
+    width: 100%;
+    left: 20px;
+  }
+
+  .contact-picture {
+    width: 100%;
   }
 }
